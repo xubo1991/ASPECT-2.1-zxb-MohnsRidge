@@ -1,7 +1,0 @@
-/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/tests/CMakeFiles/rebuild_cache.dir
-/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/tests/CMakeFiles/test.dir
-/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/tests/CMakeFiles/edit_cache.dir
-/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/tests/CMakeFiles/tests.dir
-/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/tests/CMakeFiles/tests.quick_mpi.dir
-/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/tests/CMakeFiles/quick_mpi.dir
-/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/tests/CMakeFiles/quick_mpi.screen-output.diff.dir

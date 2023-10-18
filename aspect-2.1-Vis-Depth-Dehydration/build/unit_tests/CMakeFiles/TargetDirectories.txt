@@ -1,3 +1,0 @@
-/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/unit_tests/CMakeFiles/rebuild_cache.dir
-/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/unit_tests/CMakeFiles/edit_cache.dir
-/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/unit_tests/CMakeFiles/test.dir
