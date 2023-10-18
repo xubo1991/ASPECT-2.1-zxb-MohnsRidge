@@ -1,0 +1,197 @@
+
+# 3D plume-ridge interaction models
+# Created by Xubo @ 2022-7-25
+
+set Dimension                              = 3
+set Use years in output instead of seconds = true
+
+set Adiabatic surface temperature          = 1623
+set Pressure normalization                 = surface
+set Surface pressure                       = 0
+
+set Start time                             = 0
+set End time                               = 30e6
+set Maximum time step                      = 1e6
+
+set Resume computation                     = auto
+
+set Output directory                       = output-offridge-plume-ridge-interaction-3d-Simple_DepthTemVis_Vis1e19_MinVis5e18_50degC_075km
+
+
+##################### Model geometry ########################
+
+subsection Geometry model
+  set Model name = box
+
+  subsection Box
+    set X extent = 800000
+    set Y extent = 800000
+    set Z extent = 400000
+   
+    set Box origin X coordinate = -400000
+    set Box origin Y coordinate = 0
+    set Box origin Z coordinate = 0 
+    set X repetitions = 2
+    set Y repetitions = 2
+    set Z repetitions = 4
+  end
+end
+
+# The gravity is constant and points downward.
+subsection Gravity model
+  set Model name = vertical
+  subsection Vertical
+    set Magnitude = 9.8
+  end
+end
+
+##################### Temperature ########################
+
+# half spreading rate 0.8 cm/yr
+subsection Initial temperature model
+  set Model name = function
+  subsection Function
+    set Variable names = x,y,z
+    set Function constants = zmax=400000, Tm=1623, Ts=273, kappa=1e-6, \
+                             vsub=2.5351e-10
+    set Function expression = Ts + (Tm-Ts) * (1-erfc((zmax-z)/(2*sqrt(kappa*(abs(x)/vsub)))))
+    # set Function expression = 273
+  end
+end
+
+
+# Then follows a section that describes the boundary conditions for the
+# temperature. The model we choose is called 'box' and allows to set a constant
+# temperature on each of the  sides of the box geometry. In our case, we
+# choose something that is heated from below and cooled from above. 
+# All other parts of the boundary are insulated (i.e., no heat flux through
+# these boundaries; this is also often used to specify symmetry boundaries).
+
+subsection Boundary temperature model
+
+  set Fixed temperature boundary indicators   = top, bottom
+  set List of model names = function
+  subsection Function
+    set Variable names      = x,y,z
+    set Function constants  = Tr=1623, delT=50, d=75000, x0=-50000
+    set Function expression = if(z<=0, Tr+delT*exp(-((x-x0)^2+y^2)/(d/2.35)^2), 273)
+  end
+
+end
+
+##################### Velocity ########################
+
+# The next parameters then describe on which parts of the
+# boundary we prescribe a zero or nonzero velocity and
+# on which parts the flow is allowed to be tangential.
+
+# half spreading rate 0.8 cm/yr
+subsection Boundary velocity model
+  set Prescribed velocity boundary indicators = top:function
+  set Tangential velocity boundary indicators = front, back
+  subsection Function
+    set Function constants  = u0=0.008
+    set Variable names      = x,y,z
+    set Function expression = if(x>=0,u0,-u0);0;0
+  end
+end
+
+subsection Boundary traction model
+  set Prescribed traction boundary indicators = right:initial lithostatic pressure, \
+                                                bottom:initial lithostatic pressure, \
+                                                left:initial lithostatic pressure
+
+  subsection Initial lithostatic pressure
+    # We calculate the pressure profile at the right model boundary. 
+    set Representative point         = 400000, 0, 400000,
+  end
+end
+
+##################### Function ########################
+
+subsection Formulation
+  set Formulation = Boussinesq approximation 
+end
+
+subsection Material model
+  set Model name = simple
+
+  subsection Simple model
+
+    set Reference density = 3300
+    set Reference specific heat = 1250
+    set Reference temperature = 273
+    set Thermal conductivity = 4.7
+    set Thermal expansion coefficient = 3.5e-5
+
+    set Maximum thermal prefactor = 5e2
+    set Minimum thermal prefactor = 5e-1
+    set Viscosity = 1e19
+
+    set Activation energy = 2.5e5
+    set Activation volume = 4e-6
+    set Gas constant = 8.314
+    set Bottom temperature of the model = 1623
+    set Height of the model = 200000
+    set Gravitational acceleration = 9.8
+  end
+
+end
+
+##################### Mesh ########################
+
+subsection Mesh refinement
+  set Initial global refinement                = 2
+  set Minimum refinement level                 = 2
+  set Initial adaptive refinement              = 2
+  # set Time steps between mesh refinement       = 50
+
+  set Strategy                                 = minimum refinement function
+  subsection Minimum refinement function
+    set Coordinate system   = cartesian
+    set Variable names      = x,y,z
+    # set Function constants  = xmax=100000
+    # set Function expression = (abs(x)<=xmax ? 5 : 0)
+    set Function expression = 4
+  end
+end
+
+##################### Solver ########################
+
+subsection Solver parameters
+  set Temperature solver tolerance            = 1e-12 # default 1e-12
+  set Composition solver tolerance            = 1e-12 # default 1e-12
+
+  subsection Stokes solver parameters 
+    set Linear solver tolerance = 1e-9
+    set Number of cheap Stokes solver steps = 100 
+  end 
+end
+
+##################### Postprocess ########################
+
+subsection Postprocess
+  set List of postprocessors = visualization
+
+  subsection Visualization
+    set List of output variables      = material properties
+    set Time between graphical output = 5e5
+
+    subsection Material properties
+      set List of material properties = density, viscosity
+    end
+  end
+
+  # subsection Particles
+  #   set Number of particles = 1000
+  #   set Time between data output = 5e5
+  # end
+end
+
+# We write a checkpoint every 100 time steps, so that we are able to restart 
+# the computation from that point.
+subsection Checkpointing
+  set Steps between checkpoint = 20
+end
+
+
