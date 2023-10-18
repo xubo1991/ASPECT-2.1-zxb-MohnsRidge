@@ -1,0 +1,10 @@
+-- Setting up tests with CMAKE_BUILD_TYPE Release
+-- ** processing test quick_mpi:
+-- Setting up plugin:
+--   name <quick_mpi>
+--   using ASPECT_DIR /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build
+--   in Release mode
+-- Added 1 tests.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/tests

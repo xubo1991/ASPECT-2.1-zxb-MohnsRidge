@@ -1,0 +1,36 @@
+
+
+   Loading Ascii data initial file ASPECT_DIR/data/initial-composition/ascii-data/test/shell_3d.txt.
+
+Number of active cells: 24 (on 2 levels)
+Number of degrees of freedom: 1,582 (915+57+305+305)
+
+*** Timestep 0:  t=0 years
+   Solving temperature system... 0 iterations.
+   Solving C_1 system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 98+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:                  1.15 m/year, 2.05 m/year
+     Temperature min/avg/max:            273 K, 1482 K, 3000 K
+     Heat fluxes through boundary parts: -2.689e+15 W, 3.555e+15 W, -4.237e+15 W, 0 W, 0 W
+
+*** Timestep 1:  t=100000 years
+   Solving temperature system... 8 iterations.
+   Solving C_1 system ... 9 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 88+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:                  1.15 m/year, 2.08 m/year
+     Temperature min/avg/max:            273 K, 1486 K, 3000 K
+     Heat fluxes through boundary parts: -4.206e+15 W, 7.222e+15 W, -4.206e+15 W, 0 W, 0 W
+
+Termination requested by criterion: end time
+
+
++---------------------------------------------+------------+------------+
++---------------------------------+-----------+------------+------------+
++---------------------------------+-----------+------------+------------+
+

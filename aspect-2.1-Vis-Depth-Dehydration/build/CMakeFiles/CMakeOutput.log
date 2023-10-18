@@ -1,0 +1,596 @@
+The system is: Linux - 2.6.32-754.33.1.el6.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/pylith-2.2.1-linux-x86_64/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/3.7.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/pylith-2.2.1-linux-x86_64/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/3.7.0/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_0a437/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0a437.dir/build.make CMakeFiles/cmTC_0a437.dir/build
+gmake[1]: Entering directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a437.dir/testCCompiler.c.o
+/usr/local/pylith-2.2.1-linux-x86_64/bin/gcc     -o CMakeFiles/cmTC_0a437.dir/testCCompiler.c.o   -c /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_0a437
+/usr/local/pylith-2.2.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a437.dir/link.txt --verbose=1
+/usr/local/pylith-2.2.1-linux-x86_64/bin/gcc       CMakeFiles/cmTC_0a437.dir/testCCompiler.c.o  -o cmTC_0a437 -rdynamic 
+gmake[1]: Leaving directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_cec47/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cec47.dir/build.make CMakeFiles/cmTC_cec47.dir/build
+gmake[1]: Entering directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cec47.dir/CMakeCCompilerABI.c.o
+/usr/local/pylith-2.2.1-linux-x86_64/bin/gcc     -o CMakeFiles/cmTC_cec47.dir/CMakeCCompilerABI.c.o   -c /usr/local/pylith-2.2.1-linux-x86_64/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_cec47
+/usr/local/pylith-2.2.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cec47.dir/link.txt --verbose=1
+/usr/local/pylith-2.2.1-linux-x86_64/bin/gcc      -v CMakeFiles/cmTC_cec47.dir/CMakeCCompilerABI.c.o  -o cmTC_cec47 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/local/pylith-2.2.1-linux-x86_64/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/local/pylith-2.2.1-linux-x86_64/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ../gcc-5.4.0/configure --prefix=/home/brad/pylith-binary/dist --disable-multilib --enable-languages=c,c++,fortran CPPFLAGS='-I/home/brad/pylith-binary/dist/include ' LDFLAGS='-L/home/brad/pylith-binary/dist/lib -L/home/brad/pylith-binary/dist/lib64 ' CFLAGS='-g -O2' CXXFLAGS='-g -O2 -DMPICH_IGNORE_CXX_SEEK' FCFLAGS=
+Thread model: posix
+gcc version 5.4.0 (GCC) 
+COMPILER_PATH=/usr/local/pylith-2.2.1-linux-x86_64/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/pylith-2.2.1-linux-x86_64/bin/../libexec/gcc/
+LIBRARY_PATH=/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/:/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cec47' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/local/pylith-2.2.1-linux-x86_64/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_cec47 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtbegin.o -L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0 -L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc -L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../.. CMakeFiles/cmTC_cec47.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_cec47/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_cec47.dir/build.make CMakeFiles/cmTC_cec47.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_cec47.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/pylith-2.2.1-linux-x86_64/bin/gcc     -o CMakeFiles/cmTC_cec47.dir/CMakeCCompilerABI.c.o   -c /usr/local/pylith-2.2.1-linux-x86_64/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_cec47]
+  ignore line: [/usr/local/pylith-2.2.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cec47.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/pylith-2.2.1-linux-x86_64/bin/gcc      -v CMakeFiles/cmTC_cec47.dir/CMakeCCompilerABI.c.o  -o cmTC_cec47 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/pylith-2.2.1-linux-x86_64/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/pylith-2.2.1-linux-x86_64/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ../gcc-5.4.0/configure --prefix=/home/brad/pylith-binary/dist --disable-multilib --enable-languages=c,c++,fortran CPPFLAGS='-I/home/brad/pylith-binary/dist/include ' LDFLAGS='-L/home/brad/pylith-binary/dist/lib -L/home/brad/pylith-binary/dist/lib64 ' CFLAGS='-g -O2' CXXFLAGS='-g -O2 -DMPICH_IGNORE_CXX_SEEK' FCFLAGS=]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/pylith-2.2.1-linux-x86_64/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/pylith-2.2.1-linux-x86_64/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/:/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cec47' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/local/pylith-2.2.1-linux-x86_64/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_cec47 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtbegin.o -L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0 -L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc -L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../.. CMakeFiles/cmTC_cec47.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/usr/local/pylith-2.2.1-linux-x86_64/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_cec47] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0] ==> dir [/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0]
+    arg [-L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc] ==> dir [/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc]
+    arg [-L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64] ==> dir [/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../..] ==> dir [/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../..]
+    arg [CMakeFiles/cmTC_cec47.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0] ==> [/usr/local/pylith-2.2.1-linux-x86_64/lib/gcc/x86_64-unknown-linux-gnu/5.4.0]
+  collapse library dir [/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc] ==> [/usr/local/pylith-2.2.1-linux-x86_64/lib/gcc]
+  collapse library dir [/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64] ==> [/usr/local/pylith-2.2.1-linux-x86_64/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../..] ==> [/usr/local/pylith-2.2.1-linux-x86_64/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/local/pylith-2.2.1-linux-x86_64/lib/gcc/x86_64-unknown-linux-gnu/5.4.0;/usr/local/pylith-2.2.1-linux-x86_64/lib/gcc;/usr/local/pylith-2.2.1-linux-x86_64/lib64;/lib64;/usr/lib64;/usr/local/pylith-2.2.1-linux-x86_64/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e37e9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e37e9.dir/build.make CMakeFiles/cmTC_e37e9.dir/build
+gmake[1]: Entering directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e37e9.dir/feature_tests.c.o
+/usr/local/pylith-2.2.1-linux-x86_64/bin/gcc    -std=c11 -o CMakeFiles/cmTC_e37e9.dir/feature_tests.c.o   -c /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e37e9
+/usr/local/pylith-2.2.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e37e9.dir/link.txt --verbose=1
+/usr/local/pylith-2.2.1-linux-x86_64/bin/gcc       CMakeFiles/cmTC_e37e9.dir/feature_tests.c.o  -o cmTC_e37e9 -rdynamic 
+gmake[1]: Leaving directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ad705/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ad705.dir/build.make CMakeFiles/cmTC_ad705.dir/build
+gmake[1]: Entering directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad705.dir/feature_tests.c.o
+/usr/local/pylith-2.2.1-linux-x86_64/bin/gcc    -std=c99 -o CMakeFiles/cmTC_ad705.dir/feature_tests.c.o   -c /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ad705
+/usr/local/pylith-2.2.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad705.dir/link.txt --verbose=1
+/usr/local/pylith-2.2.1-linux-x86_64/bin/gcc       CMakeFiles/cmTC_ad705.dir/feature_tests.c.o  -o cmTC_ad705 -rdynamic 
+gmake[1]: Leaving directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_89076/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_89076.dir/build.make CMakeFiles/cmTC_89076.dir/build
+gmake[1]: Entering directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89076.dir/feature_tests.c.o
+/usr/local/pylith-2.2.1-linux-x86_64/bin/gcc    -std=c90 -o CMakeFiles/cmTC_89076.dir/feature_tests.c.o   -c /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_89076
+/usr/local/pylith-2.2.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89076.dir/link.txt --verbose=1
+/usr/local/pylith-2.2.1-linux-x86_64/bin/gcc       CMakeFiles/cmTC_89076.dir/feature_tests.c.o  -o cmTC_89076 -rdynamic 
+gmake[1]: Leaving directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_05bf3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_05bf3.dir/build.make CMakeFiles/cmTC_05bf3.dir/build
+gmake[1]: Entering directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_05bf3.dir/testCXXCompiler.cxx.o
+/usr/local/pylith-2.2.1-linux-x86_64/bin/c++      -o CMakeFiles/cmTC_05bf3.dir/testCXXCompiler.cxx.o -c /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_05bf3
+/usr/local/pylith-2.2.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05bf3.dir/link.txt --verbose=1
+/usr/local/pylith-2.2.1-linux-x86_64/bin/c++        CMakeFiles/cmTC_05bf3.dir/testCXXCompiler.cxx.o  -o cmTC_05bf3 -rdynamic 
+gmake[1]: Leaving directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_42acf/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_42acf.dir/build.make CMakeFiles/cmTC_42acf.dir/build
+gmake[1]: Entering directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_42acf.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/pylith-2.2.1-linux-x86_64/bin/c++      -o CMakeFiles/cmTC_42acf.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/pylith-2.2.1-linux-x86_64/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_42acf
+/usr/local/pylith-2.2.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42acf.dir/link.txt --verbose=1
+/usr/local/pylith-2.2.1-linux-x86_64/bin/c++       -v CMakeFiles/cmTC_42acf.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_42acf -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/local/pylith-2.2.1-linux-x86_64/bin/c++
+COLLECT_LTO_WRAPPER=/usr/local/pylith-2.2.1-linux-x86_64/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ../gcc-5.4.0/configure --prefix=/home/brad/pylith-binary/dist --disable-multilib --enable-languages=c,c++,fortran CPPFLAGS='-I/home/brad/pylith-binary/dist/include ' LDFLAGS='-L/home/brad/pylith-binary/dist/lib -L/home/brad/pylith-binary/dist/lib64 ' CFLAGS='-g -O2' CXXFLAGS='-g -O2 -DMPICH_IGNORE_CXX_SEEK' FCFLAGS=
+Thread model: posix
+gcc version 5.4.0 (GCC) 
+COMPILER_PATH=/usr/local/pylith-2.2.1-linux-x86_64/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/pylith-2.2.1-linux-x86_64/bin/../libexec/gcc/
+LIBRARY_PATH=/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/:/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_42acf' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/local/pylith-2.2.1-linux-x86_64/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_42acf /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtbegin.o -L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0 -L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc -L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../.. CMakeFiles/cmTC_42acf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_42acf/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_42acf.dir/build.make CMakeFiles/cmTC_42acf.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_42acf.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/pylith-2.2.1-linux-x86_64/bin/c++      -o CMakeFiles/cmTC_42acf.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/pylith-2.2.1-linux-x86_64/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_42acf]
+  ignore line: [/usr/local/pylith-2.2.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42acf.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/pylith-2.2.1-linux-x86_64/bin/c++       -v CMakeFiles/cmTC_42acf.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_42acf -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/pylith-2.2.1-linux-x86_64/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/pylith-2.2.1-linux-x86_64/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ../gcc-5.4.0/configure --prefix=/home/brad/pylith-binary/dist --disable-multilib --enable-languages=c,c++,fortran CPPFLAGS='-I/home/brad/pylith-binary/dist/include ' LDFLAGS='-L/home/brad/pylith-binary/dist/lib -L/home/brad/pylith-binary/dist/lib64 ' CFLAGS='-g -O2' CXXFLAGS='-g -O2 -DMPICH_IGNORE_CXX_SEEK' FCFLAGS=]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/pylith-2.2.1-linux-x86_64/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/pylith-2.2.1-linux-x86_64/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/:/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_42acf' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/local/pylith-2.2.1-linux-x86_64/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_42acf /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtbegin.o -L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0 -L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc -L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../.. CMakeFiles/cmTC_42acf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/usr/local/pylith-2.2.1-linux-x86_64/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_42acf] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0] ==> dir [/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0]
+    arg [-L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc] ==> dir [/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc]
+    arg [-L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64] ==> dir [/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../..] ==> dir [/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../..]
+    arg [CMakeFiles/cmTC_42acf.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0] ==> [/usr/local/pylith-2.2.1-linux-x86_64/lib/gcc/x86_64-unknown-linux-gnu/5.4.0]
+  collapse library dir [/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc] ==> [/usr/local/pylith-2.2.1-linux-x86_64/lib/gcc]
+  collapse library dir [/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64] ==> [/usr/local/pylith-2.2.1-linux-x86_64/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/local/pylith-2.2.1-linux-x86_64/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../..] ==> [/usr/local/pylith-2.2.1-linux-x86_64/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/local/pylith-2.2.1-linux-x86_64/lib/gcc/x86_64-unknown-linux-gnu/5.4.0;/usr/local/pylith-2.2.1-linux-x86_64/lib/gcc;/usr/local/pylith-2.2.1-linux-x86_64/lib64;/lib64;/usr/lib64;/usr/local/pylith-2.2.1-linux-x86_64/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_47ef3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_47ef3.dir/build.make CMakeFiles/cmTC_47ef3.dir/build
+gmake[1]: Entering directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_47ef3.dir/feature_tests.cxx.o
+/usr/local/pylith-2.2.1-linux-x86_64/bin/c++     -std=c++14 -o CMakeFiles/cmTC_47ef3.dir/feature_tests.cxx.o -c /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_47ef3
+/usr/local/pylith-2.2.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47ef3.dir/link.txt --verbose=1
+/usr/local/pylith-2.2.1-linux-x86_64/bin/c++        CMakeFiles/cmTC_47ef3.dir/feature_tests.cxx.o  -o cmTC_47ef3 -rdynamic 
+gmake[1]: Leaving directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_b6ec5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b6ec5.dir/build.make CMakeFiles/cmTC_b6ec5.dir/build
+gmake[1]: Entering directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b6ec5.dir/feature_tests.cxx.o
+/usr/local/pylith-2.2.1-linux-x86_64/bin/c++     -std=c++11 -o CMakeFiles/cmTC_b6ec5.dir/feature_tests.cxx.o -c /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b6ec5
+/usr/local/pylith-2.2.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6ec5.dir/link.txt --verbose=1
+/usr/local/pylith-2.2.1-linux-x86_64/bin/c++        CMakeFiles/cmTC_b6ec5.dir/feature_tests.cxx.o  -o cmTC_b6ec5 -rdynamic 
+gmake[1]: Leaving directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_07267/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_07267.dir/build.make CMakeFiles/cmTC_07267.dir/build
+gmake[1]: Entering directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_07267.dir/feature_tests.cxx.o
+/usr/local/pylith-2.2.1-linux-x86_64/bin/c++     -std=c++98 -o CMakeFiles/cmTC_07267.dir/feature_tests.cxx.o -c /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_07267
+/usr/local/pylith-2.2.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07267.dir/link.txt --verbose=1
+/usr/local/pylith-2.2.1-linux-x86_64/bin/c++        CMakeFiles/cmTC_07267.dir/feature_tests.cxx.o  -o cmTC_07267 -rdynamic 
+gmake[1]: Leaving directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C++ SOURCE FILE Test HAVE_DLOPEN succeeded with the following output:
+Change Dir: /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e1bbe/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e1bbe.dir/build.make CMakeFiles/cmTC_e1bbe.dir/build
+gmake[1]: Entering directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e1bbe.dir/src.cxx.o
+/usr/local/pylith-2.2.1-linux-x86_64/bin/c++     -DHAVE_DLOPEN   -o CMakeFiles/cmTC_e1bbe.dir/src.cxx.o -c /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e1bbe
+/usr/local/pylith-2.2.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1bbe.dir/link.txt --verbose=1
+/usr/local/pylith-2.2.1-linux-x86_64/bin/c++    -DHAVE_DLOPEN    CMakeFiles/cmTC_e1bbe.dir/src.cxx.o  -o cmTC_e1bbe -rdynamic -ldl 
+gmake[1]: Leaving directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <cstddef>
+#include <dlfcn.h>
+
+int main()
+{
+  void *handle = dlopen ("somelib.so", RTLD_LAZY);
+  return handle == NULL || dlerror();
+}
+
+Determining if files link.h exist passed with the following output:
+Change Dir: /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7f058/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7f058.dir/build.make CMakeFiles/cmTC_7f058.dir/build
+gmake[1]: Entering directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f058.dir/CheckIncludeFiles.c.o
+/usr/local/pylith-2.2.1-linux-x86_64/bin/gcc     -o CMakeFiles/cmTC_7f058.dir/CheckIncludeFiles.c.o   -c /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_7f058
+/usr/local/pylith-2.2.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f058.dir/link.txt --verbose=1
+/usr/local/pylith-2.2.1-linux-x86_64/bin/gcc       CMakeFiles/cmTC_7f058.dir/CheckIncludeFiles.c.o  -o cmTC_7f058 -rdynamic 
+gmake[1]: Leaving directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_FP_EXCEPTIONS succeeded with the following output:
+Change Dir: /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_14289/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_14289.dir/build.make CMakeFiles/cmTC_14289.dir/build
+gmake[1]: Entering directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_14289.dir/src.cxx.o
+/usr/local/pylith-2.2.1-linux-x86_64/bin/c++    -I/usr/local/dealii-8.5.1/include -I/usr/local/dealii-8.5.1/include/deal.II/bundled -I/home/brad/pylith-binary/dist/include -I/usr/local/trilinos-11.4.3/include -I/usr/local/include -I/usr/local/p4est/FAST/include  -DHAVE_FP_EXCEPTIONS -pedantic -fPIC -Wall -Wextra -Wpointer-arith -Wwrite-strings -Wsynth -Wsign-compare -Wswitch -Woverloaded-virtual -Wno-long-long  -Wno-literal-suffix -fopenmp-simd -std=c++14 -DMPICH_IGNORE_CXX_SEEK -Wno-unused-local-typedefs -Og -ggdb   -o CMakeFiles/cmTC_14289.dir/src.cxx.o -c /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_14289
+/usr/local/pylith-2.2.1-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14289.dir/link.txt --verbose=1
+/usr/local/pylith-2.2.1-linux-x86_64/bin/c++    -DHAVE_FP_EXCEPTIONS -pedantic -fPIC -Wall -Wextra -Wpointer-arith -Wwrite-strings -Wsynth -Wsign-compare -Wswitch -Woverloaded-virtual -Wno-long-long  -Wno-literal-suffix -fopenmp-simd -std=c++14 -DMPICH_IGNORE_CXX_SEEK -Wno-unused-local-typedefs -Og -ggdb    CMakeFiles/cmTC_14289.dir/src.cxx.o  -o cmTC_14289 -Wl,-rpath,/usr/local/dealii-8.5.1/lib:/usr/local/p4est/DEBUG/lib:/usr/local/mpich3.2/lib:/usr/local/trilinos-11.4.3/lib:/usr/local/lib -rdynamic /usr/local/dealii-8.5.1/lib/libdeal_II.g.so.8.5.1 /usr/local/p4est/DEBUG/lib/libp4est.so /usr/local/p4est/DEBUG/lib/libsc.so /usr/lib64/libbz2.so /usr/local/mpich3.2/lib/libmpifort.so /usr/local/mpich3.2/lib/libmpi.so /usr/lib64/libtbb.so /usr/lib64/libz.so /usr/local/trilinos-11.4.3/lib/libml.so /usr/local/trilinos-11.4.3/lib/libifpack.so /usr/local/trilinos-11.4.3/lib/libamesos.so /usr/local/trilinos-11.4.3/lib/libgaleri-xpetra.so /usr/local/trilinos-11.4.3/lib/libgaleri.so /usr/local/trilinos-11.4.3/lib/libaztecoo.so /usr/local/trilinos-11.4.3/lib/libisorropia.so /usr/local/trilinos-11.4.3/lib/libxpetra-sup.so /usr/local/trilinos-11.4.3/lib/libxpetra-ext.so /usr/local/trilinos-11.4.3/lib/libxpetra.so /usr/local/trilinos-11.4.3/lib/libepetraext.so /usr/local/trilinos-11.4.3/lib/libtpetraext.so /usr/local/trilinos-11.4.3/lib/libtpetrainout.so /usr/local/trilinos-11.4.3/lib/libtpetra.so /usr/local/trilinos-11.4.3/lib/libtriutils.so /usr/local/trilinos-11.4.3/lib/libzoltan.so /usr/local/trilinos-11.4.3/lib/libepetra.so /usr/local/trilinos-11.4.3/lib/libkokkosdisttsqr.so /usr/local/trilinos-11.4.3/lib/libkokkosnodetsqr.so /usr/local/trilinos-11.4.3/lib/libkokkoslinalg.so /usr/local/trilinos-11.4.3/lib/libkokkosnodeapi.so /usr/local/trilinos-11.4.3/lib/libkokkos.so /usr/local/trilinos-11.4.3/lib/libsacado.so /usr/local/trilinos-11.4.3/lib/libtpi.so /usr/local/trilinos-11.4.3/lib/libteuchosremainder.so /usr/local/trilinos-11.4.3/lib/libteuchosnumerics.so /usr/local/trilinos-11.4.3/lib/libteuchoscomm.so /usr/local/trilinos-11.4.3/lib/libteuchosparameterlist.so /usr/local/trilinos-11.4.3/lib/libteuchoscore.so /usr/local/pylith-2.2.1-linux-x86_64/lib/libmpicxx.so -lrt /usr/local/lib/libgsl.so /usr/local/lib/libgslcblas.so /usr/lib64/libnetcdf_c++.so /usr/lib64/libnetcdf.so /usr/lib64/liblapack.so /usr/lib64/libblas.so -lgfortran -lquadmath -lm -lc /usr/local/pylith-2.2.1-linux-x86_64/lib/libmpi.so 
+gmake[1]: Leaving directory `/home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+#include <fenv.h>
+#include <limits>
+#include <sstream>
+
+#include <deal.II/base/utilities.h>
+
+int main()
+{
+  // Some implementations seem to not initialize the FPE bits to zero.
+  // Make sure we start from a clean state
+  feclearexcept(FE_DIVBYZERO|FE_INVALID);
+
+  // Enable floating point exceptions
+  feenableexcept(FE_DIVBYZERO|FE_INVALID);
+
+  std::ostringstream description;
+  const double lower_bound = -std::numeric_limits<double>::max();
+
+  description << lower_bound;
+  description << dealii::Utilities::string_to_int ("1");
+
+  return 0;
+}
+

@@ -1,0 +1,32 @@
+###
+#
+#  ASPECT configuration:
+#        ASPECT_VERSION:            2.1.0
+#        GIT REVISION:               ()
+#        DEAL_II_DIR:               /usr/local/dealii-8.5.1/lib/cmake/deal.II
+#        DEAL_II VERSION:           8.5.1
+#        ASPECT_USE_PETSC:          OFF
+#        ASPECT_USE_FP_EXCEPTIONS:  ON
+#        ASPECT_RUN_ALL_TESTS:      OFF
+#        ASPECT_USE_SHARED_LIBS:    ON
+#        ASPECT_HAVE_LINK_H:        ON
+#        CMAKE_BUILD_TYPE:          Release
+#        ASPECT_PRECOMPILE_HEADERS: OFF
+#        CMAKE_INSTALL_PREFIX:      /usr/local
+#        CMAKE_SOURCE_DIR:          /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth 
+#        CMAKE_BINARY_DIR:          /home/peach/Desktop/Yinuo/aspect-2.1-Vis-Depth/build
+#        CMAKE_CXX_COMPILER:        GNU 5.4.0 on platform Linux x86_64
+#                                   /usr/local/pylith-2.2.1-linux-x86_64/bin/c++
+#        PARAMETER_GUI_EXECUTABLE:  PARAMETER_GUI_EXECUTABLE-NOTFOUND
+#        CMAKE_C_COMPILER:          /usr/local/pylith-2.2.1-linux-x86_64/bin/gcc
+#
+#        LINKAGE:                   DYNAMIC
+#
+#        COMPILE_FLAGS:             -pedantic -fPIC -Wall -Wextra -Wpointer-arith -Wwrite-strings -Wsynth -Wsign-compare -Wswitch -Woverloaded-virtual -Wno-long-long  -Wno-literal-suffix -fopenmp-simd -std=c++14 -DMPICH_IGNORE_CXX_SEEK -Wno-unused-local-typedefs -O2 -funroll-loops -funroll-all-loops -fstrict-aliasing -Wno-unused-local-typedefs
+#
+#        _WITH_CXX14:               ON
+#        _WITH_CXX17:               
+#        _MPI_VERSION:              3.1
+#        _WITH_64BIT_INDICES:       OFF
+#
+###
